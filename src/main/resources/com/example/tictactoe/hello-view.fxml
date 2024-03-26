@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="600.0" style="-fx-background-color: silver;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tictactoe.HelloController">
+   <children>
+       <FlowPane fx:id="flowPane1" layoutX="10.0" layoutY="110.0" prefHeight="180.0" prefWidth="180.0">
+           <children>
+               <Button fx:id="button11" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+               <Button fx:id="button12" layoutX="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+               <Button fx:id="button13" layoutX="120.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+               <Button fx:id="button14" layoutY="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+               <Button fx:id="button15" layoutX="60.0" layoutY="60" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+               <Button fx:id="button16" layoutX="120.0" layoutY="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+               <Button fx:id="button17" layoutY="120.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+               <Button fx:id="button18" layoutX="60.0" layoutY="120.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+               <Button fx:id="button19" layoutX="120.0" layoutY="120" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+           </children>
+       </FlowPane>
+       <FlowPane fx:id="flowPane2" layoutX="210.0" layoutY="110.0" prefHeight="180.0" prefWidth="180.0">
+           <children>
+               <Button fx:id="button21" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+               <Button fx:id="button22" layoutX="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+               <Button fx:id="button23" layoutX="120.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+               <Button fx:id="button24" layoutY="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+               <Button fx:id="button25" layoutX="60.0" layoutY="60" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+               <Button fx:id="button26" layoutX="120.0" layoutY="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+               <Button fx:id="button27" layoutY="120.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+               <Button fx:id="button28" layoutX="60.0" layoutY="120.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+               <Button fx:id="button29" layoutX="120.0" layoutY="120" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+           </children>
+       </FlowPane>
+       <FlowPane fx:id="flowPane3" layoutX="410.0" layoutY="110.0" prefHeight="180.0" prefWidth="180.0">
+           <children>
+               <Button fx:id="button31" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+               <Button fx:id="button32" layoutX="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+               <Button fx:id="button33" layoutX="120.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+               <Button fx:id="button34" layoutY="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+               <Button fx:id="button35" layoutX="60.0" layoutY="60" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+               <Button fx:id="button36" layoutX="120.0" layoutY="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+               <Button fx:id="button37" layoutY="120.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+               <Button fx:id="button38" layoutX="60.0" layoutY="120.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+               <Button fx:id="button39" layoutX="120.0" layoutY="120" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+           </children>
+       </FlowPane>
+      <FlowPane fx:id="flowPane4" layoutX="10.0" layoutY="310.0" prefHeight="180.0" prefWidth="180.0">
+         <children>
+             <Button fx:id="button41" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+             <Button fx:id="button42" layoutX="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+             <Button fx:id="button43" layoutX="120.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+             <Button fx:id="button44" layoutY="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+             <Button fx:id="button45" layoutX="60.0" layoutY="60" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+             <Button fx:id="button46" layoutX="120.0" layoutY="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+             <Button fx:id="button47" layoutY="120.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+             <Button fx:id="button48" layoutX="60.0" layoutY="120.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+             <Button fx:id="button49" layoutX="120.0" layoutY="120" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+         </children>
+      </FlowPane>
+       <FlowPane fx:id="flowPane5" layoutX="210.0" layoutY="310.0" prefHeight="180.0" prefWidth="180.0">
+           <children>
+               <Button fx:id="button51" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+               <Button fx:id="button52" layoutX="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+               <Button fx:id="button53" layoutX="120.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+               <Button fx:id="button54" layoutY="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+               <Button fx:id="button55" layoutX="60.0" layoutY="60" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+               <Button fx:id="button56" layoutX="120.0" layoutY="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+               <Button fx:id="button57" layoutY="120.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+               <Button fx:id="button58" layoutX="60.0" layoutY="120.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+               <Button fx:id="button59" layoutX="120.0" layoutY="120" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+           </children>
+       </FlowPane>
+       <FlowPane fx:id="flowPane6" layoutX="410.0" layoutY="310.0" prefHeight="180.0" prefWidth="180.0">
+           <children>
+               <Button fx:id="button61" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+               <Button fx:id="button62" layoutX="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+               <Button fx:id="button63" layoutX="120.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+               <Button fx:id="button64" layoutY="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+               <Button fx:id="button65" layoutX="60.0" layoutY="60" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+               <Button fx:id="button66" layoutX="120.0" layoutY="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+               <Button fx:id="button67" layoutY="120.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+               <Button fx:id="button68" layoutX="60.0" layoutY="120.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+               <Button fx:id="button69" layoutX="120.0" layoutY="120" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+           </children>
+       </FlowPane>
+       <FlowPane fx:id="flowPane7" layoutX="10.0" layoutY="510.0" prefHeight="180.0" prefWidth="180.0">
+           <children>
+               <Button fx:id="button71" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+               <Button fx:id="button72" layoutX="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+               <Button fx:id="button73" layoutX="120.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+               <Button fx:id="button74" layoutY="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+               <Button fx:id="button75" layoutX="60.0" layoutY="60" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+               <Button fx:id="button76" layoutX="120.0" layoutY="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+               <Button fx:id="button77" layoutY="120.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+               <Button fx:id="button78" layoutX="60.0" layoutY="120.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+               <Button fx:id="button79" layoutX="120.0" layoutY="120" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+           </children>
+       </FlowPane>
+      <FlowPane fx:id="flowPane8" layoutX="210.0" layoutY="510.0" prefHeight="180.0" prefWidth="180.0">
+         <children>
+             <Button fx:id="button81" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+             <Button fx:id="button82" layoutX="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+             <Button fx:id="button83" layoutX="120.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+             <Button fx:id="button84" layoutY="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+             <Button fx:id="button85" layoutX="60.0" layoutY="60" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+             <Button fx:id="button86" layoutX="120.0" layoutY="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+             <Button fx:id="button87" layoutY="120.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+             <Button fx:id="button88" layoutX="60.0" layoutY="120.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+             <Button fx:id="button89" layoutX="120.0" layoutY="120" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+         </children>
+      </FlowPane>
+      <FlowPane fx:id="flowPane9" layoutX="410.0" layoutY="510.0" prefHeight="180.0" prefWidth="180.0">
+         <children>
+             <Button fx:id="button91" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+             <Button fx:id="button92" layoutX="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+             <Button fx:id="button93" layoutX="120.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+             <Button fx:id="button94" layoutY="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+             <Button fx:id="button95" layoutX="60.0" layoutY="60" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+             <Button fx:id="button96" layoutX="120.0" layoutY="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+             <Button fx:id="button97" layoutY="120.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+             <Button fx:id="button98" layoutX="60.0" layoutY="120.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+             <Button fx:id="button99" layoutX="120.0" layoutY="120" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" />
+         </children>
+      </FlowPane>
+      <Pane prefHeight="100.0" prefWidth="600.0">
+         <children>
+            <Button fx:id="player1" layoutX="14.0" layoutY="26.0" mnemonicParsing="false" onAction="#player1game" text="1 Player" />
+            <Button fx:id="player2" layoutX="11.0" layoutY="66.0" mnemonicParsing="false" onAction="#player2game" text="2 Players" />
+            <Button layoutX="474.0" layoutY="53.0" mnemonicParsing="false" onAction="#restartGame" text="Reset" />
+            <Text layoutX="30.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Type" />
+            <Text fx:id="ticTacToeText" layoutX="210.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TicTacToe" wrappingWidth="179.9999999999999">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </Text>
+            <Button fx:id="player1Open" disable="true" layoutX="94.0" layoutY="26.0" mnemonicParsing="false" onAction="#setPlayer1Open" text="Open" visible="false" />
+            <Button fx:id="player1Closed" layoutX="140.0" layoutY="26.0" mnemonicParsing="false" onAction="#setPlayer1Closed" text="Closed" visible="false" />
+            <Button fx:id="player2Open" disable="true" layoutX="94.0" layoutY="66.0" mnemonicParsing="false" onAction="#setPlayer2Open" text="Open" visible="false" />
+            <Button fx:id="player2Closed" layoutX="140.0" layoutY="66.0" mnemonicParsing="false" onAction="#setPlayer2Closed" text="Closed" visible="false" />
+            <Label layoutX="121.0" layoutY="6.0" text="Boards" />
+            <CheckBox fx:id="gameHistory" layoutX="467.0" layoutY="18.0" mnemonicParsing="false" onAction="#showGameHistory" text="Game history" />
+            <Text fx:id="historyDisplayer" layoutX="252.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" visible="false" wrappingWidth="137.9999999999999" />
+         </children>
+      </Pane>
+      <Pane fx:id="pane1" layoutX="10.0" layoutY="110.0" prefHeight="180.0" prefWidth="180.0" visible="false">
+         <children>
+            <ImageView fx:id="imageView1" fitHeight="180.0" fitWidth="180.0" pickOnBounds="true" preserveRatio="true" />
+         </children></Pane>
+       <Pane fx:id="pane2" layoutX="210.0" layoutY="110.0" prefHeight="180.0" prefWidth="180.0" visible="false">
+           <children>
+               <ImageView fx:id="imageView2" fitHeight="180.0" fitWidth="180.0" pickOnBounds="true" preserveRatio="true" />
+           </children></Pane>
+       <Pane fx:id="pane3" layoutX="410.0" layoutY="110.0" prefHeight="180.0" prefWidth="180.0" visible="false">
+           <children>
+               <ImageView fx:id="imageView3" fitHeight="180.0" fitWidth="180.0" pickOnBounds="true" preserveRatio="true" />
+           </children></Pane>
+       <Pane fx:id="pane4" layoutX="10.0" layoutY="310.0" prefHeight="180.0" prefWidth="180.0" visible="false">
+           <children>
+               <ImageView fx:id="imageView4" fitHeight="180.0" fitWidth="180.0" pickOnBounds="true" preserveRatio="true" />
+           </children></Pane>
+       <Pane fx:id="pane5" layoutX="210.0" layoutY="310.0" prefHeight="180.0" prefWidth="180.0" visible="false">
+           <children>
+               <ImageView fx:id="imageView5" fitHeight="180.0" fitWidth="180.0" pickOnBounds="true" preserveRatio="true" />
+           </children></Pane>
+       <Pane fx:id="pane6" layoutX="410.0" layoutY="310.0" prefHeight="180.0" prefWidth="180.0" visible="false">
+           <children>
+               <ImageView fx:id="imageView6" fitHeight="180.0" fitWidth="180.0" pickOnBounds="true" preserveRatio="true" />
+           </children></Pane>
+       <Pane fx:id="pane7" layoutX="10.0" layoutY="510.0" prefHeight="180.0" prefWidth="180.0" visible="false">
+           <children>
+               <ImageView fx:id="imageView7" fitHeight="180.0" fitWidth="180.0" pickOnBounds="true" preserveRatio="true" />
+           </children></Pane>
+       <Pane fx:id="pane8" layoutX="210.0" layoutY="510.0" prefHeight="180.0" prefWidth="180.0" visible="false">
+           <children>
+               <ImageView fx:id="imageView8" fitHeight="180.0" fitWidth="180.0" pickOnBounds="true" preserveRatio="true" />
+           </children></Pane>
+       <Pane fx:id="pane9" layoutX="410.0" layoutY="510.0" prefHeight="180.0" prefWidth="180.0" visible="false">
+           <children>
+               <ImageView fx:id="imageView9" fitHeight="180.0" fitWidth="180.0" pickOnBounds="true" preserveRatio="true" />
+           </children></Pane>
+
+   </children>
+</AnchorPane>
